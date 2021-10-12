@@ -1,0 +1,49 @@
+{
+    "generic_config": {
+        "logs_path":"",
+        "logs_level":"DEBUG"
+    },
+
+    "oracle_db_info": {
+        "user":"",
+        "password":"",
+        "port":"",
+        "host":"",
+        "service_name":""
+    },
+    
+    "gis_config": {    
+        
+        "Amplifiers":
+        {
+            "output_path":"",
+            "csv_file_name":"amplifiers_gis.csv",
+            "state":"True"
+        },
+        "Nodes":
+        {
+            "output_path":"",
+            "csv_file_name":"nodes_gis.csv",
+            "state":"True"
+        },
+        "Taps":
+        {
+            "output_path":"",
+            "csv_file_name":"taps_gis.csv",
+            "state":"True"
+        },
+        "Covers":
+        {
+            "output_path":"",
+            "csv_file_name":"nodes_coverage_gis.csv",
+            "state":"True"
+        },
+        "Cables":
+        {
+            "output_path":"",
+            "csv_file_name":"cables_gis.csv",
+            "state":"True"
+        }
+
+    }
+}
